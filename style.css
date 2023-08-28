@@ -1,0 +1,52 @@
+body {
+    background: #fc742c;
+}
+
+h1 {
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo das divs */
+div {
+    float: left;
+    margin: 10px;
+    border: 1px solid black;
+    /* Bordas cinzas */
+    padding: 10px;
+    text-align: center;
+    width: 25%;
+}
+
+/* Estilo das imagens */
+img {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0 auto 10px;
+    /* Centraliza verticalmente a imagem */
+}
+
+/* Estilo dos preços */
+p {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    /* Cor do preço */
+    font-family: 'IM Fell Double Pica SC', serif;
+}
+
+.produtos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 8px;
+}
